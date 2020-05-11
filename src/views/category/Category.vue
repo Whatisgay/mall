@@ -1,13 +1,20 @@
 <template>
-  <h2>分类</h2>
+
+ 
 </template>
 
 <script>
+
   export default {
-    name: "Category"
+    name: "Category",
+    
   }
 </script>
 
 <style scoped>
-
+.content {
+  height: 150px;
+  background-color: #bbbbbb;
+  overflow-y: scroll;
+}
 </style>

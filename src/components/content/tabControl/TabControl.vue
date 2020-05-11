@@ -39,7 +39,9 @@ export default {
     display: flex;
     text-align: center;
     font-size: 16px;
+    height: 40px;
     line-height: 40px;
+    background-color: #ffffff;
 }
 .tab-control-item  {
     flex: 1;
@@ -53,4 +55,6 @@ export default {
 .active span {
     border-bottom: 2px solid var(--color-high-text);
 }
+
+
 </style>
